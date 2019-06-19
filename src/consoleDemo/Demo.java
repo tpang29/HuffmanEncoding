@@ -7,7 +7,7 @@ import model.Huffman;
  * Purposes:
  * 
  * (1)	Use the static method encode() from the Huffman class and return
- *a string of the encoded message (header + delimiter + bit string)
+ *	a string of the encoded message (header + delimiter + bit string)
  * 
  * (2)	Use the static method decode() from the Huffman class which takes in 
  *		a string that is the encrypted message and returns the original message 
