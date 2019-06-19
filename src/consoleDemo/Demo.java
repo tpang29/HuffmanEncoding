@@ -10,7 +10,7 @@ import model.Huffman;
  *	a string of the encoded message (header + delimiter + bit string)
  * 
  * (2)	Use the static method decode() from the Huffman class which takes in 
- *		a string that is the encrypted message and returns the original message 
+ *	a string that is the encrypted message and returns the original message 
  *
  * @author Thomas Pang | 2019-06
  */
