@@ -9,9 +9,10 @@ package model;
  */
 
 import java.util.Iterator;
+//import java.util.Map.Entry;
 import java.util.Map;
+//import java.util.Map.Entry;
 import java.util.TreeMap;
-import java.util.Map.Entry;
 
 public class CharacterMap {
 	private Map<Character, Integer> map;
@@ -32,12 +33,12 @@ public class CharacterMap {
 	}
 
 	public void printCharacterMapData() {
-		Iterator<Entry<Character, Integer>> iterator = map.entrySet().iterator();
+		Iterator<Map.Entry<Character, Integer>> iterator = map.entrySet().iterator();
 
 		int totalCharacters = 0;
 
 		while (iterator.hasNext()) {
-			Entry<Character, Integer> next = iterator.next();
+			Map.Entry<Character, Integer> next = iterator.next();
 			totalCharacters += next.getValue();
 			System.out.print(next.getValue() + " ");
 			System.out.println(next.getKey());
