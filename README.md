@@ -24,6 +24,6 @@ In this programming assignment, the goal was to write a program that takes in a 
 If you are curoious about how each file works together to encode/decode messages, go [here](CODING.md).
 
 # Screenshots:
-![Screenshot_with_userInput](resources/userInput.png)
+![Screenshot_with_userInput](resources/UserInput.png)
 
 ![Screenshot_with_HuffmanTree](resources/HuffmanTree.png)
